@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.arriba{
+    background-color: cornflowerblue;
+    width: 900px;
+    height: 150px;
+}
+
+/*.medio{
+    background-color: black;
+    margin: 20px;
+}
+.medio1{
+    background-color: white;
+    width: 700px;
+    height: 200px;
+}
+.medio2{
+    background-color: white;
+    width: 100px;
+    height: 200px;
+}
+.medio3{
+    background-color: white;
+    width: 100px;
+    height: 200px;
+}*/
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 10px;
+    
+}
+
+.uno{
+    background-color: darkblue;
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+.dos{
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+
+}
+
+.tres{
+    background-color: darkblue;
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    
+
+    /*border-radius: 15px;
+    para dar corbatura*/
+}
+.abajo{
+    background-color: red;
+    width: 900px;
+    height: 100px;
+}
+
+
+
+nav ul{
+    background-color:powderblue;
+    width: 70%;
+    list-style-type: none;
+    text-align: center;
+    float: right;
+    
+    width: 50px;
+}
+nav li{
+    display: inline-flex;
+    border: 3px solid yellow;
+    color: white;
+    float: right;
+
+}
+nav a{
+    height: 10px;
+    text-decoration: none;
+    color: white (176, 235, 15);
+    padding: 10px;
+    width: 50px;
+    
+}
+nav li:hover{
+    background-color: white;
+}
